@@ -1,0 +1,35 @@
+Fabrizio Fernandez
+Lautaro Distefano
+Malena Rodriguez
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+ el fondo de la pagina en el TESTING esta de color AZUL.
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+ el fondo de la pagina en el DESARROLLO esta de color AMARILLO.
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+ el fondo de la pagina en el MASTER esta de color AMARILLO.
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+ El favicon que queda es el se elige manualmente, en este caso quedo el de ALFA.
+
+E- ¿Algún integrante tuvo problemas al hacer el push?
+ El integrante BETA, tuvo un inconveniente; No utilizo el git commit por ende no se subieron sus cambios. 
+
+F- ¿Qué problemas surgieron?
+ La gran mayoria fueron realcionados por la falta de commit, y hubieron "conflictos2 a la hora de hacer el merge.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+ Para solucionar los problemas que tuvimos con el merge entramos con el nano y borramos la lineas que daban problemas
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+ Lo que sucede si cada uno usa el push -f sobreescribe el repositorio remoto con el reepositorio local, si cada uno usa el push -f el repositorio remoto se sobreescribirá con la version del repositorio local de quien haga el push en este caso de los 3.
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+ Para que todos <p> se almacenen en index.html hicimos un pull y para que esten en DESARROLLO debemos hacer:
+- Pararse en DESARROLLO (git checkout DESARROLLO)
+- Actualizar DESARROLLO trayendo lo del MASTER/MAIN (git fetch)
+- Y por ultimo lo traemos (git merge origin/main)
