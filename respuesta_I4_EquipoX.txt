@@ -1,0 +1,15 @@
+Fabrizio Fernandez
+Lautaro Distefano
+Malena Rodriguez
+
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+ el fondo de la pagina en el TESTING esta de color AZUL.
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+ el fondo de la pagina en el DESARROLLO esta de color AMARILLO.
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+ el fondo de la pagina en el MASTER esta de color AMARILLO.
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+ El favicon que queda es el se elige manualmente, en este caso quedo el de ALFA.
